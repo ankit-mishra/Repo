@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 6, 2012 9:04:44 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.gloria.hibernate.Role" table="role" catalog="gloria">
+        <id name="roleid" type="java.lang.Integer">
+            <column name="ROLEID" />
+            <generator class="identity" />
+        </id>
+        <property name="roledesc" type="string">
+            <column name="ROLEDESC" length="45" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
