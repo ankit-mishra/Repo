@@ -1,3 +1,2 @@
-# Repo
-# Repo
-# Repo
+# GPS
+A scratch development of Spring MVC based application
